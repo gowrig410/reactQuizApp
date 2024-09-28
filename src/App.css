@@ -1,0 +1,131 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .App {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+    color: #2a2a2a;
+  }
+  
+  /* Progress bar */
+  .progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    height: 12px;
+    margin: 20px 0;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .progress {
+    height: 100%;
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: width 0.6s ease;
+  }
+  
+  
+  /* Timer */
+  .timer {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #e63946;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  
+  /* Options list */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    background-color: #f7f9fc;
+    padding: 12px 20px;
+    margin: 12px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  li:hover {
+    background-color: #eef1f5;
+    transform: translateY(-3px);
+  }
+  
+  li.option {
+    color: black;
+  }
+  
+  li.option:hover {
+    background-color: #eef1f5;
+  }
+  
+  
+  
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  /* Progress bar */
+.progress-bar {
+    width: 100%;
+    background-color: #eee;
+    height: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #4caf50;
+    transition: width 0.5s ease;
+  }
+  
+  /* Timer */
+  .timer {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #e63946;
+  }
+  
